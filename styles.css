@@ -51,7 +51,6 @@
   justify-content: center;
 }
 
-/* footer */
 a {
   font-size: 1.15rem;
 }
@@ -82,19 +81,19 @@ footer {
   margin: 0;
   padding: 0;
 }
-/* Nav */
+
 nav {
-  display: flex; /* 1 */
-  justify-content: space-between; /* 2 */
-  padding: 1rem 2rem; /* 3 */
-  background: #0b3c7a; /* 4 */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #0b3c7a;
 }
 nav ul {
-  display: flex; /* 5 */
-  list-style: none; /* 6 */
+  display: flex;
+  list-style: none;
 }
 nav li {
-  padding-left: 1rem; /* 7! */
+  padding-left: 1rem;
 }
 nav a {
   text-decoration: none;
